@@ -1,0 +1,99 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.wrapper{
+    width:100%;
+    max-width:700px;
+    background-color:aqua;
+}
+
+/* Wrapper Header*/
+.wrapper .header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:35px 40px;
+}
+.wrapper .volume-slider label,.wrapper .key-show label{
+    font-size:1.5em;
+    font-weight:500;
+}
+.volume-slider label input {
+    accent-color: white;
+}
+.key-show label input {
+    appearance: none;
+    position: relative;
+    width: 60px;
+    height: 20px;
+    background-color: darkolivegreen;
+    border-radius: 20px;
+    cursor:pointer;
+}
+.key-show label input::before{
+    content:"";
+    position:absolute;
+    left:5px;
+    top:50%;
+    height:15px;
+    width:15px;
+    border-radius:inherit;
+    background-color:deeppink;
+    transform:translateY(-50%);
+    transition:all 0.5s ease;
+}
+.key-show label input:checked::before{
+    left:41px;
+    background-color:greenyellow;
+}
+
+/*Wrapper Keys*/
+.wrapper .piano-keys{
+    list-style-type:none;
+    display:flex;
+    align-items:flex-start;
+    justify-content:unset;
+    margin:0;
+    padding:20px 40px;
+    cursor:pointer;
+}
+.piano-keys .white {
+    height: 160px;
+    width: 100px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+}
+.piano-keys .white:active{
+    filter:brightness(95%);
+}
+.piano-keys .black {
+    height: 120px;
+    width: 70px;
+    background-color: black;
+    z-index: 2;
+    margin: 0 -22px;
+    border: 1px solid white;
+    border-radius: 0 0 8px 8px;
+    text-align: center;
+    color: whitesmoke;
+    position: relative;
+}
+.piano-keys .black:active{
+    background-color:lightslategrey;
+}
+ul li span{
+    position:absolute;
+    bottom:15px;
+}

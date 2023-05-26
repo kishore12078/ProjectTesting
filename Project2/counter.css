@@ -1,0 +1,37 @@
+﻿section{
+    position:relative;
+    left:550px;
+    top:150px;
+}
+
+h1{
+    font-size:80px;
+    margin-bottom:20px;
+    position:relative;
+    left:20px;
+}
+
+input {
+    font-size: 40px;
+    font-weight:bolder;
+    border: none;
+    position: relative;
+    left: 140px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: cyan;
+    padding:10px;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+button:active {
+    background-color:lightpink;
+}

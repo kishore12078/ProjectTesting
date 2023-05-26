@@ -1,0 +1,46 @@
+﻿section{
+    border:black solid 2px;
+    padding:20px;
+    display:inline-block;
+    box-shadow:0 5px 5px 0 grey;
+    position:relative;
+    left:350px;
+    top:50px;
+    background-color:cornsilk;
+    width:800px;
+}
+
+figure {
+    position:relative;
+    left:300px;
+    
+}
+
+#images {
+    border-radius: 50%;
+}
+
+#text{
+    text-align:center;
+    display:inline-block;
+}
+
+h1,h3,h4{
+    text-align:center;
+}
+
+button {
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: wheat;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#button{
+    text-align:center;
+}
+
+button:active{
+    background-color:aqua;
+}

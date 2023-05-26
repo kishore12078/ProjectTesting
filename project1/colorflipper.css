@@ -1,0 +1,48 @@
+﻿nav{
+    background-color:antiquewhite;
+    font-size:30px;
+    padding:20px;
+    box-shadow:0 10px 10px 0 grey;
+}
+
+#nav {
+    position: relative;
+    left: 500px;
+    width:400px;
+}
+
+#body {
+    position: relative;
+    left: 500px;
+    top: 300px;
+    width: 400px;
+}
+
+#container {
+    font-size: 40px;
+    border: solid 2px black;
+    padding: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 550px;
+    background-color:black;
+    color:white;
+}
+
+button {
+    font-size: 20px;
+    padding: 20px;
+    position: relative;
+    left: 200px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color:aqua;
+    cursor:pointer;
+}
+
+button:active {
+    background-color: royalblue;
+}
